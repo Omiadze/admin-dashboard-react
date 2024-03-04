@@ -25,12 +25,19 @@ const header = () => {
   return (
     <>
       <Box
-        padding={"20px"}
+        padding={"100px"}
         height={"100vh"}
         boxShadow="2xl"
         p="6"
         rounded="md"
         bg="#ffb4a4"
+        display={"flex"}
+        flexDirection={"column"}
+        position="fixed"
+        top="0"
+        left="0"
+        zIndex="9999"
+        width="300px"
       >
         <Wrap paddingTop={"20px"}>
           <WrapItem gap={"10px"}>
